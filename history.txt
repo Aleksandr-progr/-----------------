@@ -1,0 +1,16 @@
+ 1026  git add Друзья_человека.txt
+ 1027  git commit -m "Объедините файлы и переименовал Друзья_человека.txt"
+ 1028  cat Друзья_человека.txt\n
+ 1029  mv Друзья_человека.txt Человек_и_его_друзья.txt\n
+ 1030  git add Человек_и_его_друзья.txt
+ 1031  git commit -m "Переименовал Друзья_человека.txt в  Человек_и_его_друзья.txt"
+ 1032  mkdir Питомник
+ 1033  mv Человек_и_его_друзья.txt Питомник/
+ 1034  git add Питомник/Человек_и_его_друзья.txt
+ 1035  git commit -m "Создал коталог Питомник и перенес туда  Человек_и_его_друзья.txt"
+ 1036  brew install mysql\n
+ 1037  sudo dpkg -i пакет.deb
+ 1038  python3.11 -m venv venv\n
+ 1039  source venv/bin/activate\n
+ 1040  git add .gitignore
+ 1041  git commit -m "Добавлены папки в .gitignore"
